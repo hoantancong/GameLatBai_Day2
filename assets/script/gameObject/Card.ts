@@ -23,7 +23,7 @@ export class Card extends Component {
         this.callback(this);
     }
     upCard(finishCallback){
-        //
+        //abc
         //tween
         tween(this.cardSprite.node).sequence(
             tween(this.cardSprite.node).to(0.2,{scale:new Vec3(0,1,0)}),
